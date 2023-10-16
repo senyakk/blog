@@ -19,11 +19,12 @@ const Footer: React.FC<Props> = ({ className }) => {
         rel="noreferrer"
       >
         © {CONFIG.profile.name} {from === y || !from ? y : `${from} - ${y}`}
-      </a> */}
+      </a> */
       <StyledWrapper className={className}>
       <p>
         © {CONFIG.profile.name} {from === y || !from ? y : `${from} - ${y}`}
       </p>
+      }
     </StyledWrapper>
   )
 }
