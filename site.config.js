@@ -2,7 +2,7 @@ const CONFIG = {
   // profile setting (required)
   profile: {
     name: "Arseniy Golitsyn",
-    image: "/avatar.svg", // If you want to create your own notion avatar, check out https://notion-avatar.vercel.app
+    image: "/profile_pic.JPG", // If you want to create your own notion avatar, check out https://notion-avatar.vercel.app
     role: "ai and philosophy student",
     bio: "I write on the modern and not-so-modern topics.",
     email: "arsenij@arsenij.com",
