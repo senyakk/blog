@@ -6,9 +6,9 @@ const CONFIG = {
     role: "ai and philosophy student",
     bio: "I write on the modern and not-so-modern topics.",
     email: "arsenij@arsenij.com",
-    linkedin: "",
-    github: "",
-    instagram: "",
+    linkedin: "https://www.linkedin.com/in/arsenijs-golicins/",
+    github: "https://github.com/senyakk",
+    instagram: "https://www.instagram.com/senyakk0/",
   },
   projects: [
     {
@@ -47,7 +47,7 @@ const CONFIG = {
     },
   },
   utterances: {
-    enable: true,
+    enable: false,
     config: {
       repo: process.env.NEXT_PUBLIC_UTTERANCES_REPO || "",
       "issue-term": "og:title",
