@@ -6,9 +6,9 @@ const CONFIG = {
     role: "ai and philosophy student",
     bio: "I write on the modern and not-so-modern topics.",
     email: "arsenij@arsenij.com",
-    linkedin: "https://www.linkedin.com/in/arsenijs-golicins/",
-    github: "https://github.com/senyakk",
-    instagram: "https://www.instagram.com/senyakk0/",
+    linkedin: "/arsenijs-golicins/",
+    github: "/senyakk",
+    instagram: "/senyakk0/",
   },
   projects: [
     {
