@@ -13,7 +13,7 @@ const ContactCard: React.FC = () => {
     <>
       <StyledTitle>💬 Contact</StyledTitle>
       <StyledWrapper>
-        {CONFIG.profile.github && (
+        {/* {CONFIG.profile.github && (
           <a
             href={`https://github.com/${CONFIG.profile.github}`}
             rel="noreferrer"
@@ -22,7 +22,7 @@ const ContactCard: React.FC = () => {
             <AiOutlineGithub className="icon" />
             <div className="name">github</div>
           </a>
-        )}
+        )} */}
         {CONFIG.profile.instagram && (
           <a
             href={`https://www.instagram.com/${CONFIG.profile.instagram}`}
@@ -33,7 +33,7 @@ const ContactCard: React.FC = () => {
             <div className="name">instagram</div>
           </a>
         )}
-        {CONFIG.profile.email && (
+        {/* {CONFIG.profile.email && (
           <a
             href={`mailto:${CONFIG.profile.email}`}
             rel="noreferrer"
@@ -43,8 +43,8 @@ const ContactCard: React.FC = () => {
             <AiOutlineMail className="icon" />
             <div className="name">email</div>
           </a>
-        )}
-        {CONFIG.profile.linkedin && (
+        )} */}
+        {/* {CONFIG.profile.linkedin && (
           <a
             href={`https://www.linkedin.com/in/${CONFIG.profile.linkedin}`}
             rel="noreferrer"
@@ -53,7 +53,7 @@ const ContactCard: React.FC = () => {
             <AiFillLinkedin className="icon" />
             <div className="name">linkedin</div>
           </a>
-        )}
+        )} */}
       </StyledWrapper>
     </>
   )
