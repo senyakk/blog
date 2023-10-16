@@ -20,10 +20,7 @@ const Footer: React.FC<Props> = ({ className }) => {
       >
         © {CONFIG.profile.name} {from === y || !from ? y : `${from} - ${y}`}
       </a> */
-      <StyledWrapper className={className}>
-      <p>
-        © {CONFIG.profile.name} {from === y || !from ? y : `${from} - ${y}`}
-      </p>
+      <p> © {CONFIG.profile.name} {from === y || !from ? y : `${from} - ${y}`} </p>
       }
     </StyledWrapper>
   )
