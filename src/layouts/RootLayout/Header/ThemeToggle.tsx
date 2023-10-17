@@ -20,11 +20,11 @@ const ThemeToggle: React.FC<Props> = () => {
   //   </div>
   // )
   return (
-    <div className="cursor-pointer" onClick={handleClick}>
-      <Emoji className={`dark:text-gray-50`}>
-        {scheme === "light" ? "☀️" : "🌙"}
-      </Emoji>
-    </div>
+    <StyledWrapper onClick={handleClick}>
+      <EmojiWrapper className={`dark:text-gray-50`}>
+        <Emoji>{scheme === "light" ? "☀️" : "🌙"}</Emoji>
+      </EmojiWrapper>
+    </StyledWrapper>
   );
 
   // return (
@@ -38,4 +38,9 @@ export default ThemeToggle
 
 const StyledWrapper = styled.div`
   cursor: pointer;
-`
+  display: inline-block; /* Added for button-like cursor */
+`;
+
+const EmojiWrapper = styled.div`
+  cursor: pointer; /* Set cursor to pointer for the emoji */
+`;
