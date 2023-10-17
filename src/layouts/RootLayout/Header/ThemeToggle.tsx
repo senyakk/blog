@@ -12,11 +12,18 @@ const ThemeToggle: React.FC<Props> = () => {
     setScheme(scheme === "light" ? "dark" : "light")
   }
 
+  if (CONFIG.blog.theme !== "auto") return null
   return (
-    <StyledWrapper onClick={handleClick}>
-      <Emoji>{scheme === "light" ? "☀️" : "🌙"}</Emoji>
-    </StyledWrapper>
+    <div className={`cursor-pointer dark:text-gray-50`} onClick={handleClick}>
+      {theme === "light" ? "☀️" : "🌙"}
+    </div>
   )
+
+  // return (
+  //   <StyledWrapper onClick={handleClick}>
+  //     <Emoji>{scheme === "light" ? "☀️" : "🌙"}</Emoji>
+  //   </StyledWrapper>
+  // )
 }
 
 export default ThemeToggle
