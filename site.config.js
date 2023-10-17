@@ -20,6 +20,7 @@ const CONFIG = {
   blog: {
     title: "Dia-blog",
     description: "Welcome!",
+    theme: "auto", // ['light', 'dark', auto' ]
   },
 
   // CONFIG configration (required)
